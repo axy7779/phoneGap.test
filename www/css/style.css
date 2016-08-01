@@ -1,0 +1,400 @@
+body{
+    font-family: "微软雅黑";
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.base{
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.nav{
+    height: 2.5rem;
+    width: 16rem;
+    background: linear-gradient(to top,#ebebeb,#ffffff);
+    overflow: hidden;
+}
+
+.nav .back{
+    width: 2.35rem;
+    height: 1.4rem;
+    background: linear-gradient(to top,#ececec,#ffffff);
+    box-shadow: 0 0 4px #ccc;
+    float: left;
+    border-radius: 0 0.2rem 0.2rem 0;
+    font-size: 0.6rem;
+    line-height: 1.4rem;
+    text-align: center;
+    position: relative;
+    margin-left: 1.25rem;
+    color: #666666;
+    margin-top: 0.575rem;
+}
+
+.nav .back:after{
+    content: "";
+    position: absolute;
+    width: 0.675rem;
+    height: 1.4rem;
+    left: -0.675rem;
+    background: url("../img/sanjiao.png") no-repeat center center;
+    background-size: cover;
+}
+
+h1{
+    background: url("../img/logo.png") no-repeat;
+    width: 3.7rem;
+    height: 0.975rem;
+    background-size: cover;
+    text-indent: -999999rem;
+    float: left;
+    margin-top: .8rem;
+    margin-left: 2.5rem;
+}
+
+.banner-box{
+    width: 16rem;
+    height: 7.5rem;
+}
+
+.banner{
+    width: 100%;
+    height: 6.675rem;
+}
+
+.banner .swiper-slide,.banner .swiper-slide img{
+    width: 100%;
+    height: 6.675rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 0;
+}
+
+.swiper-pagination-bullet-active{
+    background: #ff4300;
+}
+
+.menu-list{
+    width: 16rem;
+    height: 9rem;
+}
+
+.menu-list ul{
+    margin-top: 1rem;
+    width: 13.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-list li{
+    float: left;
+    width: 2rem;
+    height: 3rem;
+    margin-right: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.menu-list li:nth-child(4n){
+    margin-right: 0;
+}
+
+.menu-list li i{
+    width: 2rem;
+    height: 2rem;
+    background: #ff3900 url("../img/shangpin.png") no-repeat center center;
+    background-size: 0.8rem auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.menu-list li:nth-child(2) i{
+    background: #8bca11 url("../img/shenghuo.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(3) i{
+    background: #000000 url("../img/pinpai.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(4) i{
+    background: #ff529d url("../img/jubaopen.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(5) i{
+    background: #cfa871 url("../img/jumingpin.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(6) i{
+    background: #ffb021 url("../img/jujiazhuang.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(7) i{
+    background: #2dc814 url("../img/jutou.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+.menu-list li:nth-child(8) i{
+    background: #f5493c url("../img/kehuduan.png") no-repeat center center;
+    background-size: 0.8rem auto;
+}
+
+.menu-list li span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    line-height: 0.6rem;
+    color: #999999;
+}
+
+.hot-sale{
+    margin-top: 0.65rem;
+}
+
+.hot-sale .title{
+    height: 1.275rem;
+    border-bottom: 0.1rem #dcdcdc solid;
+}
+
+.hot-sale h3{
+    height: 0.75rem;
+    line-height: 0.75rem;
+    padding-left: 0.45rem;
+    border-left: 0.1rem solid #d51938;
+    float: left;
+    font-size: 0.7rem;
+    color: #333;
+}
+
+.hot-sale span{
+    float: right;
+    font-size: 0.7rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    color: #333;
+}
+
+.hot-sale ul{
+    margin-top: 0.75rem;
+}
+
+.hot-sale li{
+    width: 15rem;
+    height: 3rem;
+    display: -webkit-box;
+    margin-bottom: 0.5rem;
+}
+
+.hot-sale li h4{
+    width: 1.5rem;
+    height: 3rem;
+    background-color: #e00202;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: normal;
+    /*-webkit-box-flex: 1;*/
+}
+
+.hot-sale li:nth-child(2) h4{
+    background-color: #ff4800;
+}
+.hot-sale li:nth-child(3) h4{
+    background-color: #ff7300;
+}
+.hot-sale li:nth-child(4) h4{
+    background-color: #ff9d00;
+}
+.hot-sale li:nth-child(5) h4{
+    background-color: #ffa800;
+}
+.hot-sale li:nth-child(6) h4{
+    background-color: #ffb400;
+}
+.hot-sale li:nth-child(7) h4{
+    background-color: #ffba00;
+}
+.hot-sale li:nth-child(8) h4{
+    background-color: #fcd000;
+}
+.hot-sale li:nth-child(9) h4{
+    background-color: #ffd719;
+}
+.hot-sale li:nth-child(10) h4{
+    background-color: #ffe152;
+}
+
+.hot-sale li .goods-img{
+    width: 4.5rem;
+    height: 3rem;
+}
+
+.hot-sale li .goods-img img{
+    width: 4.5rem;
+    height: 3rem;
+}
+
+.hot-sale li .goods-info{
+    -webkit-box-flex: 1;
+    background-color: #f4f4f4;
+}
+
+.hot-sale li .goods-info .info-num{
+    width: 3.625rem;
+    line-height: 0.9rem;
+    font-size: 0.6rem;
+    margin-top: 0.425rem;
+    margin-left: 0.55rem;
+    float: left;
+    color: #999999;
+}
+
+.hot-sale li .goods-info .info-num strong{
+    color: #c7223d;
+}
+
+.hot-sale li .goods-info .price{
+    height: 3rem;
+    float: right;
+    color: #d51938;
+    line-height: 3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    background: url("../img/next.png") no-repeat right center;
+    background-size: auto 0.55rem;
+    padding-right: 0.8rem;
+}
+
+.more-goods{
+    height: 2rem;
+    line-height: 2rem;
+    background: #f5f5f5;
+    color: #666666;
+    font-size: .7rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.goods-more{
+    width: 15rem;
+    height: 8.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.goods-more h3{
+    width: 3.75rem;
+    height: 8.8rem;
+    background: #ff3900 url("../img/shangpintuan.png") no-repeat left bottom;
+    color: #fff;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    background-size: auto 3.35rem;
+    font-weight: normal;
+    float: left;
+}
+.goods-more.life h3{
+    background: #8bca11 url("../img/shenghuotuan.png") no-repeat left bottom;
+    background-size: auto 3.65rem;
+}
+
+.goods-more.copy h3{
+    background: #838383 url("../img/pinpaituan.png") no-repeat left bottom;
+    background-size: auto 3.35rem;
+}
+.goods-more ul{
+    border: 1px solid #eeeeee;
+    border-bottom: none;
+    border-right: none;
+    float: left;
+    width: 11.25rem;
+    box-sizing: border-box;
+}
+
+.goods-more ul li{
+    width: 3.73rem;
+    height: 2.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+    border-right: 1px solid #eee;
+    float: left;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #eee;
+}
+
+.goods-more ul li strong{
+    color: #d51942;
+}
+
+
+
+.footer div{
+    width: 33.3%;
+    float: left;
+    height: 4rem;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 6.175rem;
+    background: #38a4f1 url("../img/apple.png") no-repeat center 0.8rem;
+    background-size: auto 1.1rem;
+    color: #fff;
+}
+
+.footer div:nth-child(2){
+    background: #8bca11 url("../img/androd.png") no-repeat center 0.8rem;
+    background-size: auto 1.1rem;
+}
+
+.footer div:nth-child(3){
+    background: #ff7404 url("../img/msg.png") no-repeat center 0.8rem;
+    background-size: auto 1.1rem;
+}
+
+footer .top{
+    background: #f8f8f8;
+    height: 2.2rem;
+    width: 16rem;
+    font-size: .7rem;
+    line-height: 2.2rem;
+}
+
+footer .top .login{
+    float: left;
+    margin-left:.8rem;
+}
+
+footer .top .login a{
+    float: left;
+    margin-right: 1rem;
+    color: #333;
+}
+
+footer .top span{
+    float: right;
+    margin-right: .8rem;
+}
+
+footer .btm{
+    height: 3.65rem;
+    text-align: center;
+    line-height: 1.45rem;
+    background: #eeeeee;
+}
+
+footer .btm a{
+    color: #333333;
+    font-size: 0.7rem;
+}
+
+footer .btm .info-btm{
+    color: #999999;
+    font-size: 0.55rem;
+}
